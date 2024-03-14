@@ -1,0 +1,168 @@
+
+
+.h-thng-adnetwork,
+.main-frame {
+  width: 409px;
+  height: 409px;
+  position: absolute;
+  margin: 0 !important;
+  top: -169px;
+  left: 544px;
+  border-radius: 50%;
+  background-color: var(--color-yellowgreen-200);
+  filter: blur(433px);
+}
+.h-thng-adnetwork {
+  left: 50px;
+}
+.us {
+  color: var(--color-yellowgreen-100);
+}
+.about-us1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 1;
+}
+.lorem-ipsum-dolor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.our-team-content,
+.who-we-are-and-our-team {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.who-we-are-and-our-team {
+  width: 961px;
+  flex-direction: column;
+  gap: 2px;
+}
+.our-team-content {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-xl) 0;
+  box-sizing: border-box;
+}
+.story {
+  color: var(--color-yellowgreen-100);
+}
+.our-story {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.lorem-ipsum-dolor1 {
+  align-self: stretch;
+  height: 118px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frame-parent,
+.our-story-content {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.our-story-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 24px;
+  gap: var(--gap-5xs);
+}
+.frame-parent {
+  display: grid;
+  flex-direction: row;
+  gap: 50px;
+  grid-template-columns: repeat(4, minmax(221px, 1fr));
+}
+.about-us-content {
+  width: 1330px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 52px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.about-us,
+.lorem-ipsum-quote {
+  display: flex;
+  align-items: flex-start;
+}
+.lorem-ipsum-quote {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-21xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.about-us {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 54px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .about-us1,
+  .our-story {
+    font-size: var(--font-size-13xl);
+  }
+  .frame-parent {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(221px, 383px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-parent {
+    gap: 50px 25px;
+    grid-template-columns: minmax(221px, 1fr);
+  }
+  .about-us-content {
+    gap: 26px 52px;
+  }
+  .about-us {
+    gap: 27px 54px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-us1 {
+    font-size: var(--font-size-5xl);
+  }
+  .lorem-ipsum-dolor {
+    font-size: var(--font-size-base);
+  }
+  .our-story {
+    font-size: var(--font-size-5xl);
+  }
+  .lorem-ipsum-dolor1 {
+    font-size: var(--font-size-base);
+  }
+}
+
+.about-us{
+    background-color: #EDF8D4;
+}

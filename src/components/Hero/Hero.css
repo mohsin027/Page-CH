@@ -1,0 +1,66 @@
+
+
+   .hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 2 1 auto;
+    background-color: #ECF8D5;
+   }
+
+   .hero-section h1{
+    font-size: 72px;
+    line-height: 20px;
+   }
+
+   .hero-section p{
+    font-size: 20px;
+    line-height: 5px;
+   }
+   .hero-section h1:nth-child(2){
+    margin-bottom: 120px;
+   }
+   .img-div{
+    padding: 30px;
+   }
+ 
+   .bud-circle{
+
+    background-color: #CFE3AA;
+    border-radius: 50%;
+   }
+   
+  .img-div img{
+    width: 500px;
+   }
+   .donate{
+    margin:30px 0px;
+  width: 150px;
+  height:60px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+}
+.people-div{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.button1 {
+    position: relative;
+    width: 150px;
+  height:35px;
+    font-size: 8.7px;
+    font-weight: 600;
+    color: var(--color-white);
+    background-color: var(--color-black);
+    border-radius: 5px;
+    text-align: left;
+    text-align: center;
+  }
+ 
+
+
+
+
+   
+   

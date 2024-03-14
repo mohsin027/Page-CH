@@ -1,0 +1,133 @@
+.rectangle-div {
+    height: 149px;
+    width: 1512px;
+    position: relative;
+    background-color: var(--color-black);
+    display: none;
+    max-width: 100%;
+  }
+  .k {
+    position: relative;
+    font-weight: 600;
+  }
+  .children-are-back {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+  }
+  .children-are-back-to-school-wrapper,
+  .k-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .children-are-back-to-school-wrapper {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-smi) 0 0;
+    font-size: var(--font-size-mini);
+    color: var(--color-white);
+  }
+  .k-parent {
+    width: 280px;
+    flex-direction: row;
+    gap: var(--gap-2xl);
+  }
+  .m {
+    position: relative;
+    font-weight: 600;
+  }
+  .total-money-donated {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+  }
+  .m-parent,
+  .total-money-donated-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .total-money-donated-wrapper {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-smi) 0 0;
+    font-size: var(--font-size-mini);
+    color: var(--color-white);
+  }
+  .m-parent {
+    width: 216px;
+    flex-direction: row;
+    gap: var(--gap-3xs);
+  }
+  .div {
+    position: relative;
+    font-weight: 600;
+  }
+  .hospital-has-been {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+  }
+  .hospital-has-been-built-wrapper {
+    width: 102px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-smi) 0 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-mini);
+    color: var(--color-white);
+  }
+  .frame-div,
+  .parent,
+  .rectangle-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .parent {
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .frame-div,
+  .rectangle-group {
+    max-width: 100%;
+  }
+  .frame-div {
+    width: 1202px;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    z-index: 1;
+  }
+  .rectangle-group {
+    align-self: stretch;
+    background-color: var(--color-black);
+    justify-content: center;
+    padding: var(--padding-20xl) var(--padding-xl) var(--padding-19xl);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-29xl);
+    color: var(--color-palegoldenrod-200);
+    font-family: var(--font-poppins);
+  }
+  @media screen and (max-width: 1050px) {
+    .frame-div {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .div,
+    .k,
+    .m {
+      font-size: var(--font-size-19xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .div,
+    .k,
+    .m {
+      font-size: var(--font-size-10xl);
+    }
+  }

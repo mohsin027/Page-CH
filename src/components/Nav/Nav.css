@@ -1,0 +1,37 @@
+
+
+.nav-main{
+    height:80px;
+    width:100%;
+    background-color: white;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.nav-sub{
+display: flex;
+justify-content: center;
+}
+.nav-sub h4{
+text-decoration: none;
+color: black;
+}
+
+
+.nav-sub h4{
+    padding: 15px;
+}
+.nav-sub button{
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+.nav-sub button:nth-child(2){
+    color: white;
+    background-color: black;
+}
